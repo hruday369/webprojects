@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar h1{
+    font-size: 30px;
+    margin-right: 50px;
+    color: #f9faf8;
+}
+.navbar ul{
+    margin: 20px;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: #e5e7eb;
+}
+.homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #1F2937;
+}
+.homecontainer img{
+    height: 300px;
+    margin: 100px;
+    border-radius: 12px;
+}
+.right h4{
+    color: #e5e7eb;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px;
+}
+.right h1,input{
+    color: #f9faf8;
+}
+input{
+    background-color: #3882f6;
+    margin: 20px;
+    padding: 10px 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 15px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+.cards{
+    width: 200px;
+    text-align: center;
+  
+}
+.skills img{
+    height: 150px;
+    border:3px solid #3882f6 ;
+    padding: 30px;
+    border-radius: 8px;
+}
+.About{
+    background-color: #e5e7eb;
+    padding: 150px;
+}
+.About h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.About p{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: end;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 50px 300px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+p{
+    font-weight: 200;
+}
+.contact input{
+    border: 3px solid #f9faf8;
+    padding: 8px 30px !important;
+}
+footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+}
+footer p{
+    padding: 30px 100px;
+}
